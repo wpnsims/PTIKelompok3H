@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #28a745;
+    padding: 10px;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.table {
+    opacity: 0.8; 
+}
+
+#debts {
+    opacity: 0.8; 
+}
+
+#addDebtBtn {
+    margin-top: 20px;
+}
+
+#logout {
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+}
+
+#logout:hover {
+    background-color: #000000;
+    color: white;
+}

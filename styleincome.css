@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #28a745;
+    padding: 10px;
+    color: white;
+    text-align: center; 
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+#balance {
+    font-size: 24px;
+    background-color: lightgrey;
+    border: 15px solid grey;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.transaction-form {
+    margin-top: 30px;
+}
+
+.transaction-form input[type="text"],
+.transaction-form input[type="number"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.transaction-form button[type="submit"] {
+    width: 100%;
+}
+
+.transaction {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.transaction.income {
+    background-color: #DAF7A6;
+    border: 5px solid #A2E131;
+}
